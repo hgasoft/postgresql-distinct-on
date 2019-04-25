@@ -16,13 +16,13 @@ class Builder extends Base
     /**
      * Force the query to only return distinct on results.
      *
-     * @param string $table
+     * @param string $fieldName
      *
      * @return $this
      */
-    public function distinctOn(string $table)
+    public function distinctOn(string $fieldName)
     {
-        $this->distinctOn = $table;
+        $this->distinctOn = $fieldName;
 
         return $this;
     }
