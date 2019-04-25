@@ -2,7 +2,7 @@
 
 ## What it does:
 
-* Provides support for the postgresql specific distinct on feature for laravel 5.
+* Provides support for the postgresql specific DISTINCT ON feature for laravel 5.
 
 From the [Postgresql documentation][1]:
 > SELECT DISTINCT ON ( expression [, ...] ) keeps only the first row of each set of rows where the given expressions 
@@ -61,8 +61,8 @@ SELECT DISTINCT ON ('meta_name') meta_name, record_id, value, updated_at
 
 ## Other cool things you can do:
 
-To be able to access the meta data for a specific record, you can add the following to your record model to establish a 
-custom relationship:
+To be able to access the meta data through a model relationship (i.e. Record -> RecordMeta), you can add the following 
+to your record model to establish a custom relationship:
 
 ```php
 public function recordMeta()
