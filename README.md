@@ -1,7 +1,6 @@
 # postgresql-distinct-on
 
 ## What it does:
-
 * Provides support for the postgresql specific DISTINCT ON feature for laravel 5.
 
 From the [Postgresql documentation][1]:
