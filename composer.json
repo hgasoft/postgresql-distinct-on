@@ -1,6 +1,6 @@
 {
   "name": "datajoe/postgresql-distinct-on",
-  "description": "Provides support for the postgresql specific distinct on feature for Laravel 7.",
+  "description": "Provides support for the postgresql specific distinct on feature for Laravel. Compatible with versions 5 through 8.",
   "keywords": ["laravel", "eloquent", "postgresql","postgres","psql","distinct on","datajoe"],
   "license": "MIT",
   "homepage": "https://www.datajoe.com",
@@ -12,8 +12,8 @@
     }
   ],
   "require": {
-    "php": "^7.2.5",
-    "laravel/framework": "^7.0",
+    "php": "^7.4",
+    "laravel/framework": "^5.0|^6.0|^7.0|^8.0",
     "ext-pdo": "*"
   },
   "require-dev": {
