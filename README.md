@@ -1,7 +1,7 @@
 # postgresql-distinct-on
 
 ## What it does:
-* Provides support for the postgresql specific DISTINCT ON feature for Laravel 5-8.
+* Provides support for the postgresql specific DISTINCT ON feature for Laravel 5-9.
 
 From the [Postgresql documentation][1]:
 > SELECT DISTINCT ON ( expression [, ...] ) keeps only the first row of each set of rows where the given expressions 
