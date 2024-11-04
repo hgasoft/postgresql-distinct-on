@@ -4,6 +4,7 @@ namespace DataJoe\Extensions\Illuminate\Database;
 
 use DataJoe\Extensions\Illuminate\Database\Connectors\ConnectionFactory;
 use Illuminate\Database\DatabaseManager;
+use Illuminate\Database\DatabaseTransactionsManager;
 use Illuminate\Database\DatabaseServiceProvider as Base;
 
 class DatabaseServiceProvider extends Base
